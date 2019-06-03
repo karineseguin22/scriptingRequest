@@ -17,7 +17,7 @@ var getAndPrintHTMLChuncks = function (){
         //invoke callback when data received
         response.on('data', function(data){
             console.log('Chunck Received. Length: ' , data.length);
-            console.log(data, "\n"); 
+            console.log(data, '\n'); 
         }); 
 
         //callback is invoked when all of the data has been received
